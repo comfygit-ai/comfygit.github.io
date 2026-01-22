@@ -1,35 +1,13 @@
-# ComfyGit Documentation Hub
+# ComfyGit Documentation
 
 This repository hosts the GitHub Pages site for ComfyGit documentation at `docs.comfygit.org`.
 
 ## Structure
 
-```
-comfygit-ai.github.io/
-├── CNAME                    # Custom domain: docs.comfygit.org
-├── index.html               # Hub landing page
-├── comfygit/                # ComfyGit documentation (deployed from monorepo)
-│   ├── index.html
-│   ├── getting-started/
-│   ├── user-guide/
-│   └── ...
-└── comfydock/               # Legacy comfydock documentation (future)
-    └── ...
-```
-
-## Deployments
-
-### ComfyGit Documentation
-
-Deployed automatically from the monorepo via GitHub Actions:
-- Source: `comfygit-ai/comfygit` → `docs/comfygit-docs/`
-- Workflow: `.github/workflows/publish-docs.yml`
-- Target: `/comfygit/` subdirectory in this repo
-- Trigger: Manual via GitHub Actions
-
-### Legacy comfydock Documentation
-
-To be added later for archival purposes.
+Documentation is deployed directly to root from the monorepo via GitHub Actions:
+- **Source:** `comfygit-ai/comfygit` → `docs/comfygit-docs/`
+- **Workflow:** `.github/workflows/publish-docs.yml`
+- **Trigger:** Manual via GitHub Actions
 
 ## Custom Domain Setup
 
@@ -45,59 +23,24 @@ To be added later for archival purposes.
 1. Repository Settings → Pages
 2. Source: Deploy from branch `main` / `/ (root)`
 3. Custom domain: `docs.comfygit.org`
-4. Enforce HTTPS: ✅
-
-## Hub Landing Page
-
-The `index.html` at the root provides navigation to all project documentation:
-- Clean, modern design
-- Links to `/comfygit/` (current)
-- Links to `/comfydock/` (legacy)
-- Responsive and accessible
-
-## Manual Deployment (if needed)
-
-Normally deployments happen automatically via GitHub Actions, but you can manually deploy:
-
-```bash
-# Clone this repo
-git clone https://github.com/comfygit-ai/comfygit.github.io.git
-cd comfygit.github.io
-
-# Make changes
-# ... edit files ...
-
-# Commit and push
-git add .
-git commit -m "Update documentation"
-git push
-```
-
-GitHub Pages will rebuild automatically (usually within 1-2 minutes).
+4. Enforce HTTPS: Enabled
 
 ## Important Files
 
 - **CNAME**: Must remain at root for custom domain to work
-- **index.html**: Hub landing page, manually maintained
-- **comfygit/**: Auto-deployed, DO NOT manually edit
-- **comfydock/**: To be added for legacy docs
+- **README.md**: This file (preserved during deployments)
+- Everything else is auto-deployed from the monorepo
 
 ## Troubleshooting
 
 ### Site not updating
 - Wait 1-2 minutes for GitHub Pages rebuild
-- Check Actions tab for build status
+- Check Actions tab in monorepo for build status
 - Clear browser cache (Ctrl+Shift+R)
 
 ### Custom domain not working
 - Verify DNS CNAME record: `dig docs.comfygit.org`
 - Check GitHub Pages settings show custom domain
-- Wait up to 24 hours for DNS propagation
-
-### 404 errors on subpaths
-- Ensure directory structure is correct
-- Check that `comfygit/index.html` exists
-- Verify MkDocs built with correct `site_url`
 
 ## Links
 
