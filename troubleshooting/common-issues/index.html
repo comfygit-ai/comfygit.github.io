@@ -16,6 +16,8 @@
         <link rel="prev" href="../../cli-reference/shell-completion/">
       
       
+        <link rel="next" href="../dependency-conflicts/">
+      
       
         
       
@@ -95,8 +97,8 @@
   "url": "https://docs.comfygit.org/",
   "description": "Version control for ComfyUI environments",
   
-  "datePublished": "2025-11-13 00:17:00Z",
-  "dateModified": "2025-11-13 00:17:00Z",
+  "datePublished": "2026-01-22 20:21:20Z",
+  "dateModified": "2026-01-22 20:21:20Z",
   
   "publisher": {
     "@type": "Organization",
@@ -116,8 +118,8 @@
   "description": "Version control for ComfyUI environments",
   "url": "https://docs.comfygit.org/troubleshooting/common-issues/",
   
-  "datePublished": "2025-11-13 00:17:00Z",
-  "dateModified": "2025-11-13 00:17:00Z",
+  "datePublished": "2026-01-22 20:21:20Z",
+  "dateModified": "2026-01-22 20:21:20Z",
   
   "author": {
     "@type": "Organization",
@@ -2024,6 +2026,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#quick-diagnosis-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick diagnosis table
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#installation-issues" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2031,6 +2044,45 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Installation issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cg-command-not-found" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        cg command not found
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workspace-not-initialized" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workspace not initialized
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python-version-too-old" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python version too old
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2043,13 +2095,280 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Environment issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#environment-not-found" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Environment not found
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#environment-wont-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Environment won't start
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#out-of-sync-in-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Out of sync" in status
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comfyui-wont-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ComfyUI won't start
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#node-installation-issues" class="md-nav__link">
+  <a href="#custom-node-issues" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Node installation issues
+        Custom node issues
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Custom node issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#node-installation-fails" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Node installation fails
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#node-conflicts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Node conflicts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workflow-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflow issues
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workflow issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#workflow-shows-missing-nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflow shows missing nodes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workflow-shows-missing-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflow shows missing models
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model issues
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Model issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#models-not-appearing-in-index" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Models not appearing in index
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#civitai-download-fails-401-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CivitAI download fails (401 error)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python-package-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python package issues
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Python package issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uv-resolution-fails" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UV resolution fails
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#package-build-failures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Package build failures
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-detailed-help" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting detailed help
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting detailed help">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#view-logs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        View logs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#check-environment-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check environment status
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-verbose-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Run verbose mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-help-from-the-community" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting help from the community
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detailed-troubleshooting-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detailed troubleshooting guides
       
     </span>
   </a>
@@ -2072,7 +2391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../dependency-conflicts.md" class="md-nav__link">
+      <a href="../dependency-conflicts/" class="md-nav__link">
         
   
   
@@ -2100,7 +2419,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../missing-models.md" class="md-nav__link">
+      <a href="../missing-models/" class="md-nav__link">
         
   
   
@@ -2128,7 +2447,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../uv-errors.md" class="md-nav__link">
+      <a href="../uv-errors/" class="md-nav__link">
         
   
   
@@ -2156,7 +2475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../environment-corruption.md" class="md-nav__link">
+      <a href="../environment-corruption/" class="md-nav__link">
         
   
   
@@ -2211,6 +2530,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#quick-diagnosis-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick diagnosis table
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#installation-issues" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2218,6 +2548,45 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Installation issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cg-command-not-found" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        cg command not found
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workspace-not-initialized" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workspace not initialized
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python-version-too-old" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python version too old
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2230,13 +2599,280 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Environment issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#environment-not-found" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Environment not found
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#environment-wont-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Environment won't start
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#out-of-sync-in-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Out of sync" in status
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comfyui-wont-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ComfyUI won't start
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#node-installation-issues" class="md-nav__link">
+  <a href="#custom-node-issues" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Node installation issues
+        Custom node issues
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Custom node issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#node-installation-fails" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Node installation fails
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#node-conflicts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Node conflicts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workflow-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflow issues
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workflow issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#workflow-shows-missing-nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflow shows missing nodes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workflow-shows-missing-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflow shows missing models
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model issues
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Model issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#models-not-appearing-in-index" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Models not appearing in index
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#civitai-download-fails-401-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CivitAI download fails (401 error)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python-package-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python package issues
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Python package issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uv-resolution-fails" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UV resolution fails
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#package-build-failures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Package build failures
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-detailed-help" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting detailed help
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting detailed help">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#view-logs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        View logs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#check-environment-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check environment status
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-verbose-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Run verbose mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-help-from-the-community" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting help from the community
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detailed-troubleshooting-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detailed troubleshooting guides
       
     </span>
   </a>
@@ -2313,20 +2949,561 @@
 
 <h1 id="common-issues">Common Issues<a class="headerlink" href="#common-issues" title="Permanent link">&para;</a></h1>
 <blockquote>
-<p>Coming soon: Solutions for common ComfyGit problems.</p>
+<p>Quick solutions for frequently encountered ComfyGit problems.</p>
 </blockquote>
-<p>This page will cover frequently encountered issues and their solutions.</p>
+<p>This page helps you quickly diagnose and fix common issues. For each problem, you'll find a quick fix if it's simple, or a link to a detailed troubleshooting guide for complex issues.</p>
+<h2 id="quick-diagnosis-table">Quick diagnosis table<a class="headerlink" href="#quick-diagnosis-table" title="Permanent link">&para;</a></h2>
+<p>Use this table to identify your issue and find the right solution:</p>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Most Likely Cause</th>
+<th>Quick Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>cg: command not found</code></td>
+<td>PATH not configured</td>
+<td>Restart terminal or <a href="#cg-command-not-found">fix PATH</a></td>
+</tr>
+<tr>
+<td><code>Workspace not initialized</code></td>
+<td>No workspace created</td>
+<td>Run <code>cg init</code></td>
+</tr>
+<tr>
+<td><code>Environment 'X' not found</code></td>
+<td>Wrong env name or not created</td>
+<td>Check <code>cg list</code> or create with <code>cg create</code></td>
+</tr>
+<tr>
+<td><code>Dependency conflict</code> error</td>
+<td>Incompatible package versions</td>
+<td>See <a href="../dependency-conflicts/">Dependency Conflicts</a></td>
+</tr>
+<tr>
+<td><code>No module named 'torch'</code></td>
+<td>Virtual environment broken</td>
+<td><a href="#environment-wont-start">Repair environment</a></td>
+</tr>
+<tr>
+<td><code>Missing model</code> in workflow</td>
+<td>Model not downloaded/indexed</td>
+<td>See <a href="../missing-models/">Missing Models</a></td>
+</tr>
+<tr>
+<td><code>uv</code> resolution fails</td>
+<td>Package version incompatible</td>
+<td>See <a href="../uv-errors/">UV Errors</a></td>
+</tr>
+<tr>
+<td>ComfyUI won't start</td>
+<td>Port conflict or corrupted env</td>
+<td><a href="#comfyui-wont-start">Check logs and repair</a></td>
+</tr>
+<tr>
+<td><code>out of sync</code> in status</td>
+<td>Config drift</td>
+<td>Run <code>cg repair</code></td>
+</tr>
+<tr>
+<td>Git errors (detached HEAD)</td>
+<td>Manual git operations</td>
+<td>See <a href="../environment-corruption/">Environment Corruption</a></td>
+</tr>
+</tbody>
+</table>
 <h2 id="installation-issues">Installation issues<a class="headerlink" href="#installation-issues" title="Permanent link">&para;</a></h2>
-<p>Coming soon.</p>
+<h3 id="cg-command-not-found">cg command not found<a class="headerlink" href="#cg-command-not-found" title="Permanent link">&para;</a></h3>
+<p><strong>Problem:</strong> Running <code>cg</code> shows "command not found"</p>
+<p><strong>Diagnosis:</strong></p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>cg<span class="w"> </span>--version
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="c1"># bash: cg: command not found</span>
+</span></code></pre></div>
+<p><strong>Solutions:</strong></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Option 1: Restart terminal</label><label for="__tabbed_1_2">Option 2: Check UV installation</label><label for="__tabbed_1_3">Option 3: Reinstall ComfyGit</label><label for="__tabbed_1_4">Option 4: Check PATH manually</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>UV adds itself to PATH, but you need to restart your shell:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1"># Close terminal and open new one</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="c1"># Or source the config manually:</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="c1"># For bash</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="nb">source</span><span class="w"> </span>~/.bashrc
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="c1"># For zsh</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="nb">source</span><span class="w"> </span>~/.zshrc
+</span></code></pre></div>
+</div>
+<div class="tabbed-block">
+<p>Verify UV is installed:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>uv<span class="w"> </span>--version
+</span></code></pre></div>
+<p>If UV is missing, <a href="../../getting-started/installation/#step-1-install-uv">install it first</a>.</p>
+</div>
+<div class="tabbed-block">
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># Ensure UV is working</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>uv<span class="w"> </span>--version
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c1"># Reinstall ComfyGit</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>uv<span class="w"> </span>tool<span class="w"> </span>install<span class="w"> </span>comfygit<span class="w"> </span>--force
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="c1"># Verify</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>cg<span class="w"> </span>--version
+</span></code></pre></div>
+</div>
+<div class="tabbed-block">
+<p>UV tools should be in <code>~/.local/bin</code>:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c1"># Check if cg exists</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>ls<span class="w"> </span>-la<span class="w"> </span>~/.local/bin/cg
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="c1"># Add to PATH if needed (add to ~/.bashrc or ~/.zshrc)</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="nb">export</span><span class="w"> </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/.local/bin:</span><span class="nv">$PATH</span><span class="s2">&quot;</span>
+</span></code></pre></div>
+</div>
+</div>
+</div>
+<p>See the <a href="../../getting-started/installation/#troubleshooting-installation">Installation guide</a> for more details.</p>
+<hr />
+<h3 id="workspace-not-initialized">Workspace not initialized<a class="headerlink" href="#workspace-not-initialized" title="Permanent link">&para;</a></h3>
+<p><strong>Problem:</strong> Commands fail with "No workspace found"</p>
+<p><strong>Diagnosis:</strong></p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>$<span class="w"> </span>cg<span class="w"> </span>list
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>✗<span class="w"> </span>No<span class="w"> </span>workspace<span class="w"> </span>found.<span class="w"> </span>Initialize<span class="w"> </span>one<span class="w"> </span>with:<span class="w"> </span>cg<span class="w"> </span>init
+</span></code></pre></div>
+<p><strong>Solution:</strong></p>
+<p>Initialize a workspace (required before using ComfyGit):</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="c1"># Initialize in default location (~/comfygit)</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>cg<span class="w"> </span>init
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="c1"># Or specify custom path</span>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>cg<span class="w"> </span>init<span class="w"> </span>/path/to/workspace
+</span></code></pre></div>
+<p>See <a href="../../getting-started/concepts/#workspace">Core Concepts - Workspace</a> for more information.</p>
+<hr />
+<h3 id="python-version-too-old">Python version too old<a class="headerlink" href="#python-version-too-old" title="Permanent link">&para;</a></h3>
+<p><strong>Problem:</strong> Installation fails with "Requires Python 3.10+"</p>
+<p><strong>Solution:</strong></p>
+<p>Install Python 3.10 or newer:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Ubuntu/Debian</label><label for="__tabbed_2_2">macOS</label><label for="__tabbed_2_3">Windows</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>sudo<span class="w"> </span>add-apt-repository<span class="w"> </span>ppa:deadsnakes/ppa
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>sudo<span class="w"> </span>apt-get<span class="w"> </span>update
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>python3.11
+</span></code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>brew<span class="w"> </span>install<span class="w"> </span>python@3.11
+</span></code></pre></div>
+</div>
+<div class="tabbed-block">
+<p>Download from <a href="https://www.python.org/downloads/">python.org</a></p>
+</div>
+</div>
+</div>
+<p>Then reinstall ComfyGit:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>uv<span class="w"> </span>tool<span class="w"> </span>install<span class="w"> </span>comfygit<span class="w"> </span>--force
+</span></code></pre></div>
+<hr />
 <h2 id="environment-issues">Environment issues<a class="headerlink" href="#environment-issues" title="Permanent link">&para;</a></h2>
-<p>Coming soon.</p>
-<h2 id="node-installation-issues">Node installation issues<a class="headerlink" href="#node-installation-issues" title="Permanent link">&para;</a></h2>
-<p>Coming soon.</p>
-<p>See also:</p>
+<h3 id="environment-not-found">Environment not found<a class="headerlink" href="#environment-not-found" title="Permanent link">&para;</a></h3>
+<p><strong>Problem:</strong> Commands fail with "Environment 'X' not found"</p>
+<p><strong>Diagnosis:</strong></p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>$<span class="w"> </span>cg<span class="w"> </span>-e<span class="w"> </span>production<span class="w"> </span>status
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>✗<span class="w"> </span>Environment<span class="w"> </span><span class="s1">&#39;production&#39;</span><span class="w"> </span>not<span class="w"> </span>found
+</span></code></pre></div>
+<p><strong>Solution:</strong></p>
+<p>Check available environments:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="c1"># List all environments</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>cg<span class="w"> </span>list
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="c1"># If empty, create your first environment</span>
+</span><span id="__span-11-5"><a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>cg<span class="w"> </span>create<span class="w"> </span>production
+</span><span id="__span-11-6"><a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a>
+</span><span id="__span-11-7"><a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a><span class="c1"># If you meant a different environment</span>
+</span><span id="__span-11-8"><a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a>cg<span class="w"> </span>-e<span class="w"> </span>correct-name<span class="w"> </span>status
+</span><span id="__span-11-9"><a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a>
+</span><span id="__span-11-10"><a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a><span class="c1"># Or set a default environment</span>
+</span><span id="__span-11-11"><a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a>cg<span class="w"> </span>use<span class="w"> </span>production
+</span><span id="__span-11-12"><a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a>cg<span class="w"> </span>status<span class="w">  </span><span class="c1"># Now uses &#39;production&#39; by default</span>
+</span></code></pre></div>
+<hr />
+<h3 id="environment-wont-start">Environment won't start<a class="headerlink" href="#environment-wont-start" title="Permanent link">&para;</a></h3>
+<p><strong>Problem:</strong> <code>cg run</code> fails with import errors or module not found</p>
+<p><strong>Example errors:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>ModuleNotFoundError: No module named &#39;torch&#39;
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>ImportError: cannot import name &#39;X&#39; from &#39;Y&#39;
+</span></code></pre></div>
+<p><strong>Diagnosis:</strong></p>
+<p>Check environment status:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>cg<span class="w"> </span>status
+</span></code></pre></div>
+<p>Look for:
+- "Environment needs repair"
+- "Python packages out of sync"
+- "X nodes not installed"</p>
+<p><strong>Solution:</strong></p>
+<p>Repair the environment to fix virtual environment corruption:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="c1"># Preview what will change</span>
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>cg<span class="w"> </span>repair
+</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>
+</span><span id="__span-14-4"><a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a><span class="c1"># Apply fixes</span>
+</span><span id="__span-14-5"><a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a>cg<span class="w"> </span>repair<span class="w"> </span>--yes
+</span></code></pre></div>
+<p>For severe corruption, see <a href="../environment-corruption/">Environment Corruption</a>.</p>
+<hr />
+<h3 id="out-of-sync-in-status">"Out of sync" in status<a class="headerlink" href="#out-of-sync-in-status" title="Permanent link">&para;</a></h3>
+<p><strong>Problem:</strong> <code>cg status</code> shows "Environment needs repair" or "out of sync"</p>
+<p><strong>Example:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>⚠️  Environment needs repair:
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>  • 2 nodes in pyproject.toml not installed
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a>  • 1 untracked node on filesystem
+</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a>  • Python packages out of sync
+</span></code></pre></div>
+<p><strong>Solution:</strong></p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="c1"># Repair synchronizes your environment with config</span>
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>cg<span class="w"> </span>repair<span class="w"> </span>--yes
+</span></code></pre></div>
+<p>This is the most common fix for environment issues. See <a href="../environment-corruption/#using-cg-repair">Environment Corruption</a> for details.</p>
+<hr />
+<h3 id="comfyui-wont-start">ComfyUI won't start<a class="headerlink" href="#comfyui-wont-start" title="Permanent link">&para;</a></h3>
+<p><strong>Problem:</strong> <code>cg run</code> starts but ComfyUI doesn't load in browser</p>
+<p><strong>Diagnosis steps:</strong></p>
+<ol>
+<li>
+<p><strong>Check if ComfyUI is actually running:</strong>
+   <div class="language-bash highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="c1"># Check process</span>
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>ps<span class="w"> </span>aux<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>comfyui
+</span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>
+</span><span id="__span-17-4"><a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a><span class="c1"># Check port (default 8188)</span>
+</span><span id="__span-17-5"><a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a>lsof<span class="w"> </span>-i<span class="w"> </span>:8188
+</span></code></pre></div></p>
+</li>
+<li>
+<p><strong>Check logs for errors:</strong>
+   <div class="language-bash highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>cg<span class="w"> </span>logs
+</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>
+</span><span id="__span-18-3"><a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a><span class="c1"># Or view live logs</span>
+</span><span id="__span-18-4"><a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a>cg<span class="w"> </span>logs<span class="w"> </span>--follow
+</span></code></pre></div></p>
+</li>
+</ol>
+<p><strong>Common causes:</strong></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:3"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Port already in use</label><label for="__tabbed_3_2">Missing dependencies</label><label for="__tabbed_3_3">Node loading failure</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><strong>Error in logs:</strong> <code>Address already in use</code></p>
+<p><strong>Solution:</strong>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="c1"># Find what&#39;s using the port</span>
+</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>lsof<span class="w"> </span>-i<span class="w"> </span>:8188
+</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a>
+</span><span id="__span-19-4"><a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a><span class="c1"># Kill the process</span>
+</span><span id="__span-19-5"><a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a><span class="nb">kill</span><span class="w"> </span>&lt;PID&gt;
+</span><span id="__span-19-6"><a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a>
+</span><span id="__span-19-7"><a id="__codelineno-19-7" name="__codelineno-19-7" href="#__codelineno-19-7"></a><span class="c1"># Or start on different port</span>
+</span><span id="__span-19-8"><a id="__codelineno-19-8" name="__codelineno-19-8" href="#__codelineno-19-8"></a>cg<span class="w"> </span>run<span class="w"> </span>--port<span class="w"> </span><span class="m">8189</span>
+</span></code></pre></div></p>
+</div>
+<div class="tabbed-block">
+<p><strong>Error in logs:</strong> <code>ModuleNotFoundError</code> or import errors</p>
+<p><strong>Solution:</strong>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>cg<span class="w"> </span>repair<span class="w"> </span>--yes
+</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>cg<span class="w"> </span>run
+</span></code></pre></div></p>
+</div>
+<div class="tabbed-block">
+<p><strong>Error in logs:</strong> "Cannot import node X" or "Node failed to load"</p>
+<p><strong>Solution:</strong>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="c1"># Check which nodes failed</span>
+</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>cg<span class="w"> </span>node<span class="w"> </span>list
+</span><span id="__span-21-3"><a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>
+</span><span id="__span-21-4"><a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a><span class="c1"># Remove problematic nodes</span>
+</span><span id="__span-21-5"><a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a>cg<span class="w"> </span>node<span class="w"> </span>remove<span class="w"> </span>problematic-node
+</span><span id="__span-21-6"><a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a>
+</span><span id="__span-21-7"><a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a><span class="c1"># Or update them</span>
+</span><span id="__span-21-8"><a id="__codelineno-21-8" name="__codelineno-21-8" href="#__codelineno-21-8"></a>cg<span class="w"> </span>node<span class="w"> </span>update<span class="w"> </span>--all
+</span></code></pre></div></p>
+</div>
+</div>
+</div>
+<hr />
+<h2 id="custom-node-issues">Custom node issues<a class="headerlink" href="#custom-node-issues" title="Permanent link">&para;</a></h2>
+<h3 id="node-installation-fails">Node installation fails<a class="headerlink" href="#node-installation-fails" title="Permanent link">&para;</a></h3>
+<p><strong>Problem:</strong> <code>cg node add</code> fails with errors</p>
+<p><strong>Common scenarios:</strong></p>
+<h4 id="dependency-conflicts">Dependency conflicts<a class="headerlink" href="#dependency-conflicts" title="Permanent link">&para;</a></h4>
+<p><strong>Error message:</strong>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>✗ Dependency conflict detected
+</span><span id="__span-22-2"><a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>  • existing-node requires torch==2.0.0
+</span><span id="__span-22-3"><a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>  • new-node requires torch&gt;=2.1.0
+</span></code></pre></div></p>
+<p><strong>Solution:</strong> See <a href="../dependency-conflicts/">Dependency Conflicts</a> for comprehensive resolution strategies.</p>
+<p><strong>Quick fix:</strong>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="c1"># Try updating existing node first</span>
+</span><span id="__span-23-2"><a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>cg<span class="w"> </span>node<span class="w"> </span>update<span class="w"> </span>existing-node
+</span><span id="__span-23-3"><a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>
+</span><span id="__span-23-4"><a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a><span class="c1"># Then add new node</span>
+</span><span id="__span-23-5"><a id="__codelineno-23-5" name="__codelineno-23-5" href="#__codelineno-23-5"></a>cg<span class="w"> </span>node<span class="w"> </span>add<span class="w"> </span>new-node
+</span></code></pre></div></p>
+<h4 id="node-not-in-registry">Node not in registry<a class="headerlink" href="#node-not-in-registry" title="Permanent link">&para;</a></h4>
+<p><strong>Error message:</strong>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>✗ Node not found in registry: custom-node-name
+</span></code></pre></div></p>
+<p><strong>Solution:</strong></p>
+<p>Add by git URL instead:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>cg<span class="w"> </span>node<span class="w"> </span>add<span class="w"> </span>https://github.com/user/repo
+</span></code></pre></div>
+<p>Or search for correct name:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>cg<span class="w"> </span>node<span class="w"> </span>search<span class="w"> </span>&lt;partial-name&gt;
+</span></code></pre></div>
+<h4 id="git-clone-failures">Git clone failures<a class="headerlink" href="#git-clone-failures" title="Permanent link">&para;</a></h4>
+<p><strong>Error message:</strong>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>✗ Failed to clone repository
+</span><span id="__span-27-2"><a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a>  fatal: could not read Username
+</span></code></pre></div></p>
+<p><strong>Solution:</strong></p>
+<p>Check git authentication:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a><span class="c1"># Test git access</span>
+</span><span id="__span-28-2"><a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a>git<span class="w"> </span>ls-remote<span class="w"> </span>https://github.com/user/repo
+</span><span id="__span-28-3"><a id="__codelineno-28-3" name="__codelineno-28-3" href="#__codelineno-28-3"></a>
+</span><span id="__span-28-4"><a id="__codelineno-28-4" name="__codelineno-28-4" href="#__codelineno-28-4"></a><span class="c1"># If private, authenticate with gh CLI</span>
+</span><span id="__span-28-5"><a id="__codelineno-28-5" name="__codelineno-28-5" href="#__codelineno-28-5"></a>gh<span class="w"> </span>auth<span class="w"> </span>login
+</span></code></pre></div>
+<hr />
+<h3 id="node-conflicts">Node conflicts<a class="headerlink" href="#node-conflicts" title="Permanent link">&para;</a></h3>
+<p><strong>Problem:</strong> Two nodes have conflicting names or directories</p>
+<p><strong>Example:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-29-1"><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>✗ Node conflict detected
+</span><span id="__span-29-2"><a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a>  Directory &#39;comfyui-manager&#39; already exists but points to different repository
+</span></code></pre></div>
+<p><strong>Solution:</strong></p>
+<p>Follow the suggested actions in error message:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a><span class="c1"># Option 1: Remove old node</span>
+</span><span id="__span-30-2"><a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a>cg<span class="w"> </span>node<span class="w"> </span>remove<span class="w"> </span>old-node
+</span><span id="__span-30-3"><a id="__codelineno-30-3" name="__codelineno-30-3" href="#__codelineno-30-3"></a>
+</span><span id="__span-30-4"><a id="__codelineno-30-4" name="__codelineno-30-4" href="#__codelineno-30-4"></a><span class="c1"># Option 2: Rename existing directory</span>
+</span><span id="__span-30-5"><a id="__codelineno-30-5" name="__codelineno-30-5" href="#__codelineno-30-5"></a>mv<span class="w"> </span>custom_nodes/comfyui-manager<span class="w"> </span>custom_nodes/comfyui-manager-old
+</span><span id="__span-30-6"><a id="__codelineno-30-6" name="__codelineno-30-6" href="#__codelineno-30-6"></a>
+</span><span id="__span-30-7"><a id="__codelineno-30-7" name="__codelineno-30-7" href="#__codelineno-30-7"></a><span class="c1"># Then retry</span>
+</span><span id="__span-30-8"><a id="__codelineno-30-8" name="__codelineno-30-8" href="#__codelineno-30-8"></a>cg<span class="w"> </span>node<span class="w"> </span>add<span class="w"> </span>new-node
+</span></code></pre></div>
+<p>See <a href="../../user-guide/custom-nodes/node-conflicts/">Node Conflicts guide</a> for details.</p>
+<hr />
+<h2 id="workflow-issues">Workflow issues<a class="headerlink" href="#workflow-issues" title="Permanent link">&para;</a></h2>
+<h3 id="workflow-shows-missing-nodes">Workflow shows missing nodes<a class="headerlink" href="#workflow-shows-missing-nodes" title="Permanent link">&para;</a></h3>
+<p><strong>Problem:</strong> <code>cg workflow resolve</code> reports missing custom nodes</p>
+<p><strong>Example:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-31-1"><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>⚠️  Partial resolution - issues remain:
+</span><span id="__span-31-2"><a id="__codelineno-31-2" name="__codelineno-31-2" href="#__codelineno-31-2"></a>  ✗ 2 custom nodes not found
+</span><span id="__span-31-3"><a id="__codelineno-31-3" name="__codelineno-31-3" href="#__codelineno-31-3"></a>
+</span><span id="__span-31-4"><a id="__codelineno-31-4" name="__codelineno-31-4" href="#__codelineno-31-4"></a>Node issues:
+</span><span id="__span-31-5"><a id="__codelineno-31-5" name="__codelineno-31-5" href="#__codelineno-31-5"></a>  • comfyui-ipadapter-plus - not installed
+</span><span id="__span-31-6"><a id="__codelineno-31-6" name="__codelineno-31-6" href="#__codelineno-31-6"></a>  • comfyui-impact-pack - not installed
+</span></code></pre></div>
+<p><strong>Solution:</strong></p>
+<p>Install missing nodes:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-32-1"><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="c1"># Let ComfyGit find and install them</span>
+</span><span id="__span-32-2"><a id="__codelineno-32-2" name="__codelineno-32-2" href="#__codelineno-32-2"></a>cg<span class="w"> </span>workflow<span class="w"> </span>resolve<span class="w"> </span>my_workflow
+</span><span id="__span-32-3"><a id="__codelineno-32-3" name="__codelineno-32-3" href="#__codelineno-32-3"></a>
+</span><span id="__span-32-4"><a id="__codelineno-32-4" name="__codelineno-32-4" href="#__codelineno-32-4"></a><span class="c1"># Or install manually</span>
+</span><span id="__span-32-5"><a id="__codelineno-32-5" name="__codelineno-32-5" href="#__codelineno-32-5"></a>cg<span class="w"> </span>node<span class="w"> </span>add<span class="w"> </span>comfyui-ipadapter-plus
+</span><span id="__span-32-6"><a id="__codelineno-32-6" name="__codelineno-32-6" href="#__codelineno-32-6"></a>cg<span class="w"> </span>node<span class="w"> </span>add<span class="w"> </span>comfyui-impact-pack
+</span></code></pre></div>
+<hr />
+<h3 id="workflow-shows-missing-models">Workflow shows missing models<a class="headerlink" href="#workflow-shows-missing-models" title="Permanent link">&para;</a></h3>
+<p><strong>Problem:</strong> Workflow resolution reports models not found</p>
+<p><strong>Example:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-33-1"><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a>⚠️  Partial resolution - issues remain:
+</span><span id="__span-33-2"><a id="__codelineno-33-2" name="__codelineno-33-2" href="#__codelineno-33-2"></a>  ✗ 2 models not found
+</span><span id="__span-33-3"><a id="__codelineno-33-3" name="__codelineno-33-3" href="#__codelineno-33-3"></a>
+</span><span id="__span-33-4"><a id="__codelineno-33-4" name="__codelineno-33-4" href="#__codelineno-33-4"></a>Model issues:
+</span><span id="__span-33-5"><a id="__codelineno-33-5" name="__codelineno-33-5" href="#__codelineno-33-5"></a>  • sd_xl_base_1.0.safetensors - not in index
+</span><span id="__span-33-6"><a id="__codelineno-33-6" name="__codelineno-33-6" href="#__codelineno-33-6"></a>  • realistic_vision_v5.safetensors - not in index
+</span></code></pre></div>
+<p><strong>Solution:</strong> See <a href="../missing-models/">Missing Models</a> for comprehensive fixes.</p>
+<p><strong>Quick fix:</strong></p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-34-1"><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a><span class="c1"># Sync model index (if you already have the models)</span>
+</span><span id="__span-34-2"><a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a>cg<span class="w"> </span>model<span class="w"> </span>index<span class="w"> </span>sync
+</span><span id="__span-34-3"><a id="__codelineno-34-3" name="__codelineno-34-3" href="#__codelineno-34-3"></a>
+</span><span id="__span-34-4"><a id="__codelineno-34-4" name="__codelineno-34-4" href="#__codelineno-34-4"></a><span class="c1"># Or download missing models</span>
+</span><span id="__span-34-5"><a id="__codelineno-34-5" name="__codelineno-34-5" href="#__codelineno-34-5"></a>cg<span class="w"> </span>model<span class="w"> </span>download<span class="w"> </span>https://civitai.com/api/download/models/XXXXX
+</span></code></pre></div>
+<hr />
+<h2 id="model-issues">Model issues<a class="headerlink" href="#model-issues" title="Permanent link">&para;</a></h2>
+<h3 id="models-not-appearing-in-index">Models not appearing in index<a class="headerlink" href="#models-not-appearing-in-index" title="Permanent link">&para;</a></h3>
+<p><strong>Problem:</strong> Downloaded models don't show in <code>cg model index list</code></p>
+<p><strong>Solution:</strong></p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-35-1"><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a><span class="c1"># Sync index to discover models</span>
+</span><span id="__span-35-2"><a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a>cg<span class="w"> </span>model<span class="w"> </span>index<span class="w"> </span>sync
+</span><span id="__span-35-3"><a id="__codelineno-35-3" name="__codelineno-35-3" href="#__codelineno-35-3"></a>
+</span><span id="__span-35-4"><a id="__codelineno-35-4" name="__codelineno-35-4" href="#__codelineno-35-4"></a><span class="c1"># Verify models directory is set</span>
+</span><span id="__span-35-5"><a id="__codelineno-35-5" name="__codelineno-35-5" href="#__codelineno-35-5"></a>cg<span class="w"> </span>model<span class="w"> </span>index<span class="w"> </span>status
+</span><span id="__span-35-6"><a id="__codelineno-35-6" name="__codelineno-35-6" href="#__codelineno-35-6"></a>
+</span><span id="__span-35-7"><a id="__codelineno-35-7" name="__codelineno-35-7" href="#__codelineno-35-7"></a><span class="c1"># If no directory configured</span>
+</span><span id="__span-35-8"><a id="__codelineno-35-8" name="__codelineno-35-8" href="#__codelineno-35-8"></a>cg<span class="w"> </span>model<span class="w"> </span>index<span class="w"> </span>dir<span class="w"> </span>~/ComfyUI/models
+</span></code></pre></div>
+<p>See <a href="../missing-models/#models-downloaded-but-not-appearing">Missing Models</a> for details.</p>
+<hr />
+<h3 id="civitai-download-fails-401-error">CivitAI download fails (401 error)<a class="headerlink" href="#civitai-download-fails-401-error" title="Permanent link">&para;</a></h3>
+<p><strong>Problem:</strong> Model downloads fail with "Unauthorized" or HTTP 401</p>
+<p><strong>Solution:</strong></p>
+<p>Set your CivitAI API token:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-36-1"><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a><span class="c1"># Get token from: https://civitai.com/user/account</span>
+</span><span id="__span-36-2"><a id="__codelineno-36-2" name="__codelineno-36-2" href="#__codelineno-36-2"></a><span class="nb">export</span><span class="w"> </span><span class="nv">CIVITAI_API_TOKEN</span><span class="o">=</span><span class="s1">&#39;your-token-here&#39;</span>
+</span><span id="__span-36-3"><a id="__codelineno-36-3" name="__codelineno-36-3" href="#__codelineno-36-3"></a>
+</span><span id="__span-36-4"><a id="__codelineno-36-4" name="__codelineno-36-4" href="#__codelineno-36-4"></a><span class="c1"># Make it permanent (add to ~/.bashrc or ~/.zshrc)</span>
+</span><span id="__span-36-5"><a id="__codelineno-36-5" name="__codelineno-36-5" href="#__codelineno-36-5"></a><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;export CIVITAI_API_TOKEN=&quot;your-token-here&quot;&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.bashrc
+</span><span id="__span-36-6"><a id="__codelineno-36-6" name="__codelineno-36-6" href="#__codelineno-36-6"></a><span class="nb">source</span><span class="w"> </span>~/.bashrc
+</span><span id="__span-36-7"><a id="__codelineno-36-7" name="__codelineno-36-7" href="#__codelineno-36-7"></a>
+</span><span id="__span-36-8"><a id="__codelineno-36-8" name="__codelineno-36-8" href="#__codelineno-36-8"></a><span class="c1"># Retry download</span>
+</span><span id="__span-36-9"><a id="__codelineno-36-9" name="__codelineno-36-9" href="#__codelineno-36-9"></a>cg<span class="w"> </span>model<span class="w"> </span>download<span class="w"> </span>&lt;url&gt;
+</span></code></pre></div>
+<p>See <a href="../missing-models/#civitai-authentication-failures">Missing Models - CivitAI authentication</a> for details.</p>
+<hr />
+<h2 id="python-package-issues">Python package issues<a class="headerlink" href="#python-package-issues" title="Permanent link">&para;</a></h2>
+<h3 id="uv-resolution-fails">UV resolution fails<a class="headerlink" href="#uv-resolution-fails" title="Permanent link">&para;</a></h3>
+<p><strong>Problem:</strong> Adding nodes or packages fails with UV resolution errors</p>
+<p><strong>Example:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-37-1"><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a>✗ Failed to resolve dependencies
+</span><span id="__span-37-2"><a id="__codelineno-37-2" name="__codelineno-37-2" href="#__codelineno-37-2"></a>  No solution found when resolving dependencies
+</span></code></pre></div>
+<p><strong>Solution:</strong> See <a href="../uv-errors/">UV Errors</a> for comprehensive troubleshooting.</p>
+<p><strong>Quick fixes:</strong></p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-38-1"><a id="__codelineno-38-1" name="__codelineno-38-1" href="#__codelineno-38-1"></a><span class="c1"># Try adding constraint for problematic package</span>
+</span><span id="__span-38-2"><a id="__codelineno-38-2" name="__codelineno-38-2" href="#__codelineno-38-2"></a>cg<span class="w"> </span>constraint<span class="w"> </span>add<span class="w"> </span><span class="s2">&quot;package-name&gt;=1.0.0,&lt;2.0.0&quot;</span>
+</span><span id="__span-38-3"><a id="__codelineno-38-3" name="__codelineno-38-3" href="#__codelineno-38-3"></a>
+</span><span id="__span-38-4"><a id="__codelineno-38-4" name="__codelineno-38-4" href="#__codelineno-38-4"></a><span class="c1"># Repair environment</span>
+</span><span id="__span-38-5"><a id="__codelineno-38-5" name="__codelineno-38-5" href="#__codelineno-38-5"></a>cg<span class="w"> </span>repair<span class="w"> </span>--yes
+</span><span id="__span-38-6"><a id="__codelineno-38-6" name="__codelineno-38-6" href="#__codelineno-38-6"></a>
+</span><span id="__span-38-7"><a id="__codelineno-38-7" name="__codelineno-38-7" href="#__codelineno-38-7"></a><span class="c1"># If all else fails, update all nodes</span>
+</span><span id="__span-38-8"><a id="__codelineno-38-8" name="__codelineno-38-8" href="#__codelineno-38-8"></a>cg<span class="w"> </span>node<span class="w"> </span>update<span class="w"> </span>--all
+</span></code></pre></div>
+<hr />
+<h3 id="package-build-failures">Package build failures<a class="headerlink" href="#package-build-failures" title="Permanent link">&para;</a></h3>
+<p><strong>Problem:</strong> Installing nodes fails with "Build failed" or compiler errors</p>
+<p><strong>Example:</strong></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-39-1"><a id="__codelineno-39-1" name="__codelineno-39-1" href="#__codelineno-39-1"></a>error: Failed to build: sageattention
+</span><span id="__span-39-2"><a id="__codelineno-39-2" name="__codelineno-39-2" href="#__codelineno-39-2"></a>  × Build failed with exit code 1
+</span><span id="__span-39-3"><a id="__codelineno-39-3" name="__codelineno-39-3" href="#__codelineno-39-3"></a>  ╰─&gt; error: Microsoft Visual C++ 14.0 or greater is required
+</span></code></pre></div>
+<p><strong>Solution:</strong></p>
+<p>Install build tools for your platform:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:3"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><input id="__tabbed_4_3" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Windows</label><label for="__tabbed_4_2">Linux</label><label for="__tabbed_4_3">macOS</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Install <a href="https://visualstudio.microsoft.com/visual-cpp-build-tools/">Microsoft C++ Build Tools</a></p>
+</div>
+<div class="tabbed-block">
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-40-1"><a id="__codelineno-40-1" name="__codelineno-40-1" href="#__codelineno-40-1"></a><span class="c1"># Ubuntu/Debian</span>
+</span><span id="__span-40-2"><a id="__codelineno-40-2" name="__codelineno-40-2" href="#__codelineno-40-2"></a>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>build-essential<span class="w"> </span>python3-dev
+</span><span id="__span-40-3"><a id="__codelineno-40-3" name="__codelineno-40-3" href="#__codelineno-40-3"></a>
+</span><span id="__span-40-4"><a id="__codelineno-40-4" name="__codelineno-40-4" href="#__codelineno-40-4"></a><span class="c1"># Fedora</span>
+</span><span id="__span-40-5"><a id="__codelineno-40-5" name="__codelineno-40-5" href="#__codelineno-40-5"></a>sudo<span class="w"> </span>dnf<span class="w"> </span>install<span class="w"> </span>gcc<span class="w"> </span>gcc-c++<span class="w"> </span>python3-devel
+</span></code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-41-1"><a id="__codelineno-41-1" name="__codelineno-41-1" href="#__codelineno-41-1"></a>xcode-select<span class="w"> </span>--install
+</span></code></pre></div>
+</div>
+</div>
+</div>
+<p>See <a href="../uv-errors/#build-failures-compiled-packages">UV Errors - Build failures</a> for details.</p>
+<hr />
+<h2 id="getting-detailed-help">Getting detailed help<a class="headerlink" href="#getting-detailed-help" title="Permanent link">&para;</a></h2>
+<h3 id="view-logs">View logs<a class="headerlink" href="#view-logs" title="Permanent link">&para;</a></h3>
+<p>Logs contain detailed error information:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-42-1"><a id="__codelineno-42-1" name="__codelineno-42-1" href="#__codelineno-42-1"></a><span class="c1"># View recent logs</span>
+</span><span id="__span-42-2"><a id="__codelineno-42-2" name="__codelineno-42-2" href="#__codelineno-42-2"></a>cg<span class="w"> </span>logs<span class="w"> </span>-n<span class="w"> </span><span class="m">100</span>
+</span><span id="__span-42-3"><a id="__codelineno-42-3" name="__codelineno-42-3" href="#__codelineno-42-3"></a>
+</span><span id="__span-42-4"><a id="__codelineno-42-4" name="__codelineno-42-4" href="#__codelineno-42-4"></a><span class="c1"># View logs in real-time</span>
+</span><span id="__span-42-5"><a id="__codelineno-42-5" name="__codelineno-42-5" href="#__codelineno-42-5"></a>cg<span class="w"> </span>logs<span class="w"> </span>--follow
+</span><span id="__span-42-6"><a id="__codelineno-42-6" name="__codelineno-42-6" href="#__codelineno-42-6"></a>
+</span><span id="__span-42-7"><a id="__codelineno-42-7" name="__codelineno-42-7" href="#__codelineno-42-7"></a><span class="c1"># Logs location</span>
+</span><span id="__span-42-8"><a id="__codelineno-42-8" name="__codelineno-42-8" href="#__codelineno-42-8"></a>~/.config/comfygit/logs/&lt;env-name&gt;-&lt;timestamp&gt;.log
+</span></code></pre></div>
+<hr />
+<h3 id="check-environment-status">Check environment status<a class="headerlink" href="#check-environment-status" title="Permanent link">&para;</a></h3>
+<p>Always start diagnosis with:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-43-1"><a id="__codelineno-43-1" name="__codelineno-43-1" href="#__codelineno-43-1"></a><span class="c1"># Basic status</span>
+</span><span id="__span-43-2"><a id="__codelineno-43-2" name="__codelineno-43-2" href="#__codelineno-43-2"></a>cg<span class="w"> </span>status
+</span><span id="__span-43-3"><a id="__codelineno-43-3" name="__codelineno-43-3" href="#__codelineno-43-3"></a>
+</span><span id="__span-43-4"><a id="__codelineno-43-4" name="__codelineno-43-4" href="#__codelineno-43-4"></a><span class="c1"># Verbose output with full details</span>
+</span><span id="__span-43-5"><a id="__codelineno-43-5" name="__codelineno-43-5" href="#__codelineno-43-5"></a>cg<span class="w"> </span>status<span class="w"> </span>--verbose
+</span></code></pre></div>
+<p>This shows:
+- Environment health
+- Sync status
+- Git state
+- Workflow issues
+- Uncommitted changes</p>
+<hr />
+<h3 id="run-verbose-mode">Run verbose mode<a class="headerlink" href="#run-verbose-mode" title="Permanent link">&para;</a></h3>
+<p>Add <code>--verbose</code> to commands for detailed output:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-44-1"><a id="__codelineno-44-1" name="__codelineno-44-1" href="#__codelineno-44-1"></a>cg<span class="w"> </span>node<span class="w"> </span>add<span class="w"> </span>&lt;node&gt;<span class="w"> </span>--verbose
+</span><span id="__span-44-2"><a id="__codelineno-44-2" name="__codelineno-44-2" href="#__codelineno-44-2"></a>cg<span class="w"> </span>repair<span class="w"> </span>--verbose
+</span><span id="__span-44-3"><a id="__codelineno-44-3" name="__codelineno-44-3" href="#__codelineno-44-3"></a>cg<span class="w"> </span>sync<span class="w"> </span>--verbose
+</span></code></pre></div>
+<hr />
+<h2 id="getting-help-from-the-community">Getting help from the community<a class="headerlink" href="#getting-help-from-the-community" title="Permanent link">&para;</a></h2>
+<p>If you're still stuck after trying these solutions:</p>
+<ol>
+<li>
+<p><strong>Check logs</strong> for detailed error traces:
+   <div class="language-bash highlight"><pre><span></span><code><span id="__span-45-1"><a id="__codelineno-45-1" name="__codelineno-45-1" href="#__codelineno-45-1"></a>cg<span class="w"> </span>logs<span class="w"> </span>-n<span class="w"> </span><span class="m">100</span>
+</span></code></pre></div></p>
+</li>
+<li>
+<p><strong>Capture environment info:</strong>
+   <div class="language-bash highlight"><pre><span></span><code><span id="__span-46-1"><a id="__codelineno-46-1" name="__codelineno-46-1" href="#__codelineno-46-1"></a>cg<span class="w"> </span>status
+</span><span id="__span-46-2"><a id="__codelineno-46-2" name="__codelineno-46-2" href="#__codelineno-46-2"></a>cg<span class="w"> </span>--version
+</span><span id="__span-46-3"><a id="__codelineno-46-3" name="__codelineno-46-3" href="#__codelineno-46-3"></a>uv<span class="w"> </span>--version
+</span><span id="__span-46-4"><a id="__codelineno-46-4" name="__codelineno-46-4" href="#__codelineno-46-4"></a>python<span class="w"> </span>--version
+</span></code></pre></div></p>
+</li>
+<li>
+<p><strong>Search existing issues:</strong></p>
+</li>
+<li><a href="https://github.com/comfygit-ai/comfygit/issues">GitHub Issues</a></li>
+<li>
+<p><a href="https://github.com/comfygit-ai/comfygit/discussions">GitHub Discussions</a></p>
+</li>
+<li>
+<p><strong>Report the issue</strong> with:</p>
+</li>
+<li>ComfyGit version (<code>cg --version</code>)</li>
+<li>Full error message or log excerpt</li>
+<li>Steps to reproduce</li>
+<li>Output of <code>cg status</code></li>
+</ol>
+<h2 id="detailed-troubleshooting-guides">Detailed troubleshooting guides<a class="headerlink" href="#detailed-troubleshooting-guides" title="Permanent link">&para;</a></h2>
+<p>For complex issues, see these in-depth guides:</p>
+<div class="grid cards">
 <ul>
-<li><a href="dependency-conflicts.md">Dependency Conflicts</a></li>
-<li><a href="uv-errors.md">UV Errors</a></li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88zM12 4.15l-1.89 1.07L16 8.61l1.96-1.11zM6.04 7.5 12 10.85l1.96-1.1-5.88-3.4zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-6.7l-6 3.37v6.71z"/></svg></span> <strong><a href="../dependency-conflicts/">Dependency Conflicts</a></strong></p>
+<hr />
+<p>Resolve Python dependency conflicts between custom nodes</p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m5.12 5 .81-1h12l.94 1M12 17.5 6.5 12H10v-2h4v2h3.5zm8.54-12.27-1.39-1.68C18.88 3.21 18.47 3 18 3H6c-.47 0-.88.21-1.16.55L3.46 5.23C3.17 5.57 3 6 3 6.5V19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.5c0-.5-.17-.93-.46-1.27"/></svg></span> <strong><a href="../uv-errors/">UV Errors</a></strong></p>
+<hr />
+<p>Understand and fix UV package manager errors</p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v6h-2v2h-2v2h-2v2h-2v2h-2v2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm2 12v4a2 2 0 0 1-2 2h-4v-2h2v-2h2v-2zm-2-6.5a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5H11v-1h2v-2h2v-2h2V9h2z"/></svg></span> <strong><a href="../missing-models/">Missing Models</a></strong></p>
+<hr />
+<p>Fix workflow model errors and download issues</p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 13h-2V7h2m0 10h-2v-2h2M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span> <strong><a href="../environment-corruption/">Environment Corruption</a></strong></p>
+<hr />
+<p>Recover from corrupted or broken environments</p>
+</li>
 </ul>
+</div>
 
 
 
@@ -2349,7 +3526,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="November 13, 2025 00:17:00 UTC"><span class="timeago" datetime="2025-11-13T00:17:00+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="November 13, 2025 00:17:00 UTC">2025-11-13</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="January 22, 2026 20:21:20 UTC"><span class="timeago" datetime="2026-01-22T20:21:20+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="January 22, 2026 20:21:20 UTC">2026-01-22</span>
   </span>
 
     
@@ -2411,6 +3588,22 @@
             </div>
           </a>
         
+        
+          
+          <a href="../dependency-conflicts/" class="md-footer__link md-footer__link--next" aria-label="Next: Dependency Conflicts">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Dependency Conflicts
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
         
       </nav>
     

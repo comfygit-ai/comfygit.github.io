@@ -2,118 +2,134 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.comfygit.org/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/cli-reference/environment-commands/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/cli-reference/global-commands/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/cli-reference/node-commands/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/cli-reference/shell-completion/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/cli-reference/workflow-commands/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/getting-started/concepts/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/getting-started/features/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/getting-started/installation/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/troubleshooting/common-issues/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.comfygit.org/troubleshooting/dependency-conflicts/</loc>
+         <lastmod>2026-01-23</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.comfygit.org/troubleshooting/environment-corruption/</loc>
+         <lastmod>2026-01-23</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.comfygit.org/troubleshooting/missing-models/</loc>
+         <lastmod>2026-01-23</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.comfygit.org/troubleshooting/uv-errors/</loc>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/workspaces/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/collaboration/export-import/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/collaboration/git-remotes/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/collaboration/team-workflows/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/custom-nodes/adding-nodes/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/custom-nodes/managing-nodes/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/custom-nodes/node-conflicts/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/environments/creating-environments/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/environments/running-comfyui/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/environments/version-control/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/models/adding-sources/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/models/downloading-models/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/models/managing-models/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/models/model-index/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/python-dependencies/constraints/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/python-dependencies/py-commands/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/workflows/workflow-model-importance/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/workflows/workflow-resolution/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
     <url>
          <loc>https://docs.comfygit.org/user-guide/workflows/workflow-tracking/</loc>
-         <lastmod>2026-01-22</lastmod>
+         <lastmod>2026-01-23</lastmod>
     </url>
 </urlset>
